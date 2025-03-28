@@ -44,7 +44,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100">
-      <h1 className="text-3xl font-bold mb-8">Interactive Hue Boxes</h1>
+      <h1 className="text-3xl font-bold mb-8">Interactive 3x3 Matrix</h1>
       
       <div className="mb-8 grid grid-cols-3 gap-4">
         {Array.from({ length: totalBoxes }).map((_, index) => (
